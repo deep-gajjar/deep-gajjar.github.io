@@ -25,5 +25,8 @@ jobs:
       - name: Check for build errors
         run: npm run build --if-present
 
+      - name: Check for build errors
+        run: npm run deploy
+
     #   - name: Run tests
     #     run: npm test -- --watchAll=false # Prevents the CI from getting stuck

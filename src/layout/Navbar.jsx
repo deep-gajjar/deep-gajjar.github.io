@@ -18,7 +18,7 @@ export const Navbar = () => {
 					href="#"
 					className="text-xl font-bold tracking-tight hover:text-primary"
 				>
-					PM<span className="text-primary">.</span>
+					PM<span className="text-primary">..</span>
 				</a>
 				{/* Desktop Nav */}
 				<div className="hidden md:flex items-center gap-1">
